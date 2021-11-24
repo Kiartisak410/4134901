@@ -60,9 +60,37 @@ function multi2(val,index,array) {
     return val *3;
 }
 
-const over10 = number2.filter(overFn);
+const over10 = number2.filter(overFN);
 console.log(over10);
 
 function overFN(val) {
     return val > 10;
 }
+
+let sum = number.reduce(addNum)
+console.log(sum)
+
+function addNum(total, val) {
+    return total + val;
+}
+
+let over10n = number.every(over1)
+console.log(over10n)
+
+function over1(val) {
+    return val > 10;
+}
+
+let someOver10 = number.some(over1)
+console.log(someOver10)
+
+let first = number.find(over1)
+console.log(first)
+
+let firstIndex = number.findIndex(over1)
+console.log(firstIndex)
+
+const al = "ABCDEFG"
+let alArr = Array.from(al)
+
+console.log(alArr)

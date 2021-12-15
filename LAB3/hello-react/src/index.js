@@ -6,6 +6,7 @@ import Car from "./components/Car";
 import List from "./components/List";
 import Brand from "./components/Ul";
 import DataTable from "./components/Table";
+import Hook from "./components/Hook"
 
 ReactDOM.render(
   <>
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Car age="21" eye="black" />
     <List />
     <Brand />
+    <Hook />
   </>,
   document.getElementById("root")
 );

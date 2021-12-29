@@ -68,24 +68,24 @@ function overFN(val) {
 }
 
 let sum = number.reduce(addNum)
-console.log(sum)
+console.log("รวม"+sum)
 
 function addNum(total, val) {
     return total + val;
 }
 
 let over10n = number.every(over1)
-console.log(over10n)
+console.log("every:"+over10n)
 
 function over1(val) {
     return val > 10;
 }
 
 let someOver10 = number.some(over1)
-console.log(someOver10)
+console.log("some:"+someOver10)
 
 let first = number.find(over1)
-console.log(first)
+console.log("find: "+first)
 
 let firstIndex = number.findIndex(over1)
 console.log(firstIndex)

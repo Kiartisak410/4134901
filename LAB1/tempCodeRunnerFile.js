@@ -1,10 +1,6 @@
-function add(a,b) {
-    return a*b;
-}
+let sum = number.reduce(addNum)
+console.log(sum)
 
-var addFn = function (a,b) {
-    return a*b;
+function addNum(total, val) {
+    return total + val;
 }
-
-console.log(add(5,3));
-console.log(addFn(4,5));

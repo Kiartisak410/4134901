@@ -21,7 +21,7 @@ console.log(person.fullname())
 
 // destructuring
 const {firstname,lasname,age,sex} = person
-console.log(firstname)
+console.log("destructuring "+firstname)
 
 const {} = person
 console.log(firstname)
